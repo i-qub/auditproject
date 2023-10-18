@@ -1,0 +1,11 @@
+.likeIcon {
+    /* color: #3b5998; */
+    /* color: #2196f3; */
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.clickable {
+    cursor: pointer;
+}

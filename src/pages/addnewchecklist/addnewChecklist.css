@@ -1,0 +1,33 @@
+.add-checklist{
+    background-color: rgb(169, 25, 25);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 12%;
+    padding: 2px;
+    height: 35px;
+    margin-left: 10%;
+}
+.submit-btn{
+    background-color: rgb(169, 25, 25);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 10%;
+    padding: 2px;
+    height: 35px;
+    margin-left: 1%;
+    font-size: medium;
+}
+.upload{
+    margin: auto;
+    padding: 2px;
+}
+.submit{
+    margin: auto;
+    margin-top: 10px;
+    padding: 2px;
+}
+#parent-modal-title{
+    font-style: arial;
+}

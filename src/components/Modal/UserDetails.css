@@ -1,0 +1,39 @@
+.table-userdetail{
+    display: flex;
+    flex-direction: column;
+}
+.row_1-userdetail{
+    display: flex;
+}
+.colmn_1-userdetail{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.27rem;
+}
+.colmn_2-userdetail{
+    display: flex;
+    flex-direction: column;
+}
+.label-userdetail{
+    /* padding: 3px; */
+}
+.input-userdetail{
+    height: 30px;
+}
+.form-control-userdetail{
+    /* height: 100%; */
+    /* border: solid 0.1px;
+    border-radius: 5px; */
+    width: auto;
+}
+.btn-userdetail{
+    background-color: rgb(169, 25, 25);
+    border-radius: 4px;
+    color: white;
+    width: auto;
+    padding: 3px;
+}
+.skills-userdetail{
+    display: flex;
+    flex-direction: column;
+}

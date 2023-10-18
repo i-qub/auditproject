@@ -1,0 +1,34 @@
+:root {
+  --main-bg-color: #f2f7fa;
+  --border-radius: 20px;
+  --text-gray: #999999;
+}
+
+body {
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+button {
+  border: none;
+  outline: none;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-disabled {
+  background-color: rgba(0, 13, 82, 0.5);
+}

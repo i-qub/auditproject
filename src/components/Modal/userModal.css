@@ -1,0 +1,76 @@
+.row-aduit-detail-admin{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 4px;
+    width: auto;
+
+}
+.detail-1{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%;
+    border: solid .005rem aliceblue;
+    border-radius: 12px;
+    background-color: aliceblue;
+}
+.date{
+    display: flex;
+    width: auto;
+}
+
+.Scope-Shift{
+    display: flex;
+    width: auto;
+}
+.Audit-Team{
+    display: flex;
+    width: auto;
+}
+.Audit{
+    display: flex;
+    width: auto;
+}
+.NC{
+    display: flex;
+    width: auto;
+}
+.col-md-8{
+    display: flex;
+    padding: 3px;
+    background-color: aliceblue;
+}
+.form-group{
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.form-control-admin-details{
+    margin-left: 3%;
+    width: auto;
+    height: auto;
+    background-color: inherit;
+}
+.label{
+    margin-bottom: 0rem;
+}
+.auditor-update-button{
+    background-color: rgb(169, 25, 25);
+    border-radius: 4px;
+    color: white;
+    /* height: auto; */
+    padding: 6px;
+    width: auto;
+    font-size: small;
+}
+.Close-nc-btn{
+    background-color: rgb(169, 25, 25);
+    border-radius: 4px;
+    color: white;
+    /* height: auto; */
+    padding: 6px;
+    width: auto;
+    font-size: small;
+}

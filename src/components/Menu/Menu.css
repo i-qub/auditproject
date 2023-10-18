@@ -1,0 +1,75 @@
+/* General Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Feed Menu */
+.feed-menu {
+  position: sticky;
+  box-shadow: 0px 2px 24px 2px rgba(0, 6, 148, 0.08);
+  background-color: white;
+  padding: 1rem;
+  height: 100%;
+}
+
+/* Logo */
+.logo {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  width: 4rem;
+  cursor: pointer;
+}
+
+/* Logo Text */
+.logo-text {
+  color: #586F97;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+/* Menu Items Container */
+.menu-items {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Menu Item */
+.items {
+  background-color: rgb(169, 25, 25);
+  height: 3.5rem;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+/* Menu Item Text */
+.menu-item {
+  color: white;
+}
+
+/* Active Menu Item */
+.active-menu-item {
+  background-color: #586F97;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1200px) {
+  .menu-item > span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feed-menu {
+    display: none;
+  }
+}
+

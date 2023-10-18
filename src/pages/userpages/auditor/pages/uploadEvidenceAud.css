@@ -1,0 +1,45 @@
+.table{
+    display: flex;
+    flex-direction: column;
+}
+.row_1{
+    display: flex;
+    flex-direction: column;
+}
+.downloadNC{
+    display: flex;
+    margin: auto 0px;
+}
+
+.btn{
+    background-color: rgb(169, 25, 25);
+    border-radius: 4px;
+    color: white;
+    height: 35px;
+    padding: 6px;
+    /* width: auto; */
+}
+.btn1{
+    margin-top: 1%;
+
+    background-color: rgb(169, 25, 25);
+    border-radius: 4px;
+    color: white;
+    height: 35px;
+    padding: 6px;
+    width: 30%;
+}
+
+.upload1{
+    display: flex;
+    flex-direction: column;
+
+}
+.button{
+    margin-top: 2%;
+    padding: 3px;
+}
+.input1{
+    margin-left: 2%;
+    
+}

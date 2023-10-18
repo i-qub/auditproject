@@ -1,0 +1,40 @@
+.input{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+.form-control{
+    /* margin-left: 30px; */
+    margin-right: auto;
+    width: 40%;
+    height: 50%;
+}
+.labelclass{
+ margin-right: 2%;
+}
+.date-start{
+    display: flex;
+    padding: 3px;
+}
+.date-end{
+    margin:auto;
+    padding: 3px;
+    display: flex;
+}
+.date-picker{
+    border: solid .5px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.add-audit{
+    background-color: rgb(169, 25, 25);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 15%;
+    padding: 2px;
+    height: 40px;
+    margin-left: 10%;
+}

@@ -1,0 +1,27 @@
+.profile-page-header {
+  padding-top: 1rem;
+  position: sticky;
+  top: 0rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background-color: var(--main-bg-color);
+}
+
+.profile-page-header svg {
+  cursor: pointer;
+}
+
+.page-header-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* .feed-header-mi {
+  position: sticky !important;
+  color: black !important;
+  background-color: #FFFFFF !important;
+  border-radius: 10px;
+} */

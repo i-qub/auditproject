@@ -1,0 +1,72 @@
+.clients-cards {
+    margin-left: 0 !important;
+    padding-right: 33px;
+}
+
+.client-details {
+    text-align: center;
+}
+
+.client-img {
+    max-width: 50%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.order-card {
+    padding-bottom: 10px;
+}
+
+.contact-icon {
+    background-color: #ff7961 !important;
+}
+
+.address-icon {
+    background-color: #673ab7 !important;
+}
+
+.email-icon {
+    background-color: #43a047 !important;
+}
+
+.client-table {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.cp {
+    padding-bottom: 10px;
+}
+
+.amount-text {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sub-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fw {
+    font-weight: bold !important;
+}
+
+.he {
+    height: 330px !important;
+}
+
+.h-160 {
+    height: 160px !important;
+}
+
+@media screen and (max-width: 1024px){
+    .clients-cards {
+        display: block !important;
+    }
+
+    .re-grid {
+        max-width: none !important;
+    }
+}

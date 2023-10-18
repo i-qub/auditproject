@@ -1,0 +1,254 @@
+.signin-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url('C:\Users\Joydeep Sarkar\Downloads\Audit-Project-main\Audit-Project-main\src\assets\menon-menon-01.jpg');
+  background-repeat: no-repeat;
+  background-size: 1540px 100vh;
+  
+
+  /* --marginvalue: 5rem; */
+}
+
+/* .left-signin-part{
+  height: 100%;
+  width: 100%;
+} */
+.right-signin-part {
+
+  /* margin-top: 20px; */
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 34%;
+  height: 53%;
+  padding: 8px 16px!important;
+  border: 1px solid #ccc!important;
+  
+}
+
+.signin-heading {
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center!important;
+}
+
+.signin-subheading {
+  font-size: 18px;
+  text-align: center!important;
+  font-weight: 600;
+  color: white;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.field{
+  padding: 8px;
+  display: block;
+  border: none;
+  /* border-bottom: 1px solid #ccc; */
+  width: 100%;
+  color: #000!important;
+  background-color: #fff!important;
+  height: 30px;
+}
+.field::placeholder{
+  font-weight: 100;
+}
+
+.tokenField{
+  display: flex;
+  padding: 2px;
+  background-color: white;
+}
+
+.passwordField{
+  
+  padding: 2px;
+  
+  background-color: white;
+}
+
+.signin-form > div {
+  margin-top: 1.5rem;
+}
+.alternate{
+  margin-left: 120px;
+
+  color: white
+}
+
+.forgot-password-text {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #282c40;
+  text-align: end;
+}
+
+.forgot-password-text:hover {
+  text-decoration: underline;
+}
+
+.signin-submit-btn {
+  height: 40px;
+  background-color: #ff9800!important;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 80%;
+  color: black;
+  margin-top: 1.5rem;
+  margin-bottom: .8rem;
+  margin-left: 200px;
+  font-weight: 500;
+  width: 20%;
+}
+.signin-submit-btn:hover{
+  background-color: #b4b6c2;
+}
+.logo{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.line {
+  height: 1.2px;
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.continue-with-text-wrapper {
+  position: relative;
+  top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.continue-with-text {
+  font-size: 18px;
+  color: #b4b6c2;
+  background-color: #ffffff;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.signin-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-options-container {
+  width: 154px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px 1px rgba(120, 120, 120, 0.2);
+  border-radius: 13.5372px;
+  cursor: pointer;
+  margin: 0.8rem;
+}
+
+.link-to-signup {
+  color: #ff9800;
+  font-size: large;
+  font-weight: 600;
+}
+.link-to-signup:hover{
+  color: #ff9800;
+  text-decoration: none;
+  outline: 0;
+}
+
+/* .link-to-signup:hover {
+  text-decoration: underline;
+} */
+
+.login-test-btn {
+  margin-top: 1rem;
+  background-color: #282c40;
+  color: white;
+  /* line-height: 1.5; */
+  padding: 0.75rem 0.5rem;
+  border-radius: 4px;
+  align-self: center;
+  width: 200px;
+}
+
+
+@media screen and (min-width: 1700px) {
+  .signin-wrapper {
+    --marginvalue: 8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1230px) {
+  .left-signin-part {
+    width: 40%;
+  }
+
+  .right-signin-part {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .signin-wrapper {
+    --marginvalue: 8rem;
+  }
+
+  .left-signin-part {
+    display: none;
+  }
+
+  .right-signin-part {
+    width: 100%;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signin-wrapper {
+    --marginvalue: 3rem;
+  }
+
+  .right-signin-part {
+    margin-top: 3.5rem;
+  }
+
+  .signin-heading {
+    font-size: 40px;
+  }
+
+  .signin-subheading {
+    font-size: 20px;
+  }
+
+  .signin-options-container {
+    width: 130px;
+    height: 58px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .right-signin-part {
+    justify-content: flex-start;
+  }
+}
